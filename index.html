@@ -1,12 +1,44 @@
 <html>
+      <head>
+            <style>
 
+        *{box-sizing: border-box;}
+
+        div{width: 300px; height: 300px;
+
+              border: 3px solid cadetblue;
+
+              position: relative;
+
+              margin: 30px auto;
+
+              overflow: hidden;}
+
+        div p{position: absolute;
+
+                  left: 50%; top: 34%;
+
+                  transform: translateX(-50%);
+
+                  font-size: 1.5em;
+
+                  font-family:Cambria;
+
+                  color: white;
+
+                  text-shadow: 0px 0px 5px white;
+
+                  display: none;}
+
+        div:hover p{display: block;}
+
+        div:hover img{transform: scale(1.5);}
+
+    </style>
+      </head>
+      
 <body>
-
-      <div>
-
           <img src="image/sujeedo_6.png" alt="사진" width="600px">
-
-      </div>
 
   </body>
   </html>
