@@ -19,7 +19,7 @@ h1{
 	height: 200px;
 	position: absolute;
 	border-radius: 100%;
-	box-shadow: inset 1em 1em gold;
+	box-shadow: -1em -1em black, -1em -1em yellow;
 	display: none;
 }
 
