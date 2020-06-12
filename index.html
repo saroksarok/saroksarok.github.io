@@ -1,27 +1,39 @@
 <html>
       <head>
+        
             
-          <style>
-.zoom {
-    padding: 50px;
-    background-color: green;
-    transition: transform .2s; /* Animation */
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
+            
+         .hover_image { overflow: hidden; }
+
+.hover_image img {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.hover_image:hover img {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
 }
 
-.zoom:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-</style>
+<div class="hover_image">
+    <img src="https://freight.cargo.site/w/1000/i/69d64f86725e222cb8cfdf044c5ef4d800550d3e951305c718650659eaa5f373/03.jpg">
+</div>
 
-<div class="zoom"></div>
                 
 
       
             <body>
-          <img src="https://freight.cargo.site/w/1000/i/69d64f86725e222cb8cfdf044c5ef4d800550d3e951305c718650659eaa5f373/03.jpg" alt="사진" width="600px">
-  </body>
+            <img src="https://freight.cargo.site/w/1000/i/69d64f86725e222cb8cfdf044c5ef4d800550d3e951305c718650659eaa5f373/03.jpg" alt="사진" width="600px">
+            </body>
       </head>
   </html>
